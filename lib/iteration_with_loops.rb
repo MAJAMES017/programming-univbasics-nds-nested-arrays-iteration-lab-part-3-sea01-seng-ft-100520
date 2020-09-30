@@ -2,8 +2,8 @@ def join_nested_strings(src)
 
 
 src.flatten!
-y = src-(-1..1000).to_a
-y.join (" ")
+no_ints = src-(-1..1000).to_a
+no_ints.join (" ")
 
 
   # src will be an Array of Arrays of Strings and Integers
