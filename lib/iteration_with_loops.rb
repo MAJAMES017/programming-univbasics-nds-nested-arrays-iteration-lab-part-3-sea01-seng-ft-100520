@@ -2,7 +2,7 @@ def join_nested_strings(src)
 
 
 src.flatten!
-no_ints = src-(-1..1000).to_a
+no_ints = src -(-1..1000).to_a
 no_ints.join (" ")
 
 
